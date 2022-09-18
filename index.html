@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Aula 9 - Portfólio</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+  <title>Felipe Botero</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="container" class="container">
+    <header>
+
+      <div class="identify">
+        <div>
+          <img id="img" class="img" src="https://github.com/FeBotero.png" alt="">
+        </div>
+
+        <div>
+          <h1>
+            Felipe Botero
+          </h1>
+          <h3>Desenvolvedor Front-end</h3>
+        </div>
+      </div>
+      <div><button id="tema" class="button" onClick=alterarTema()>Alterar tema</button></div>
+
+    </header>
+
+    <main>
+      <div id="mural" class="mural">
+        <h2>Projetos</h2>
+        <button class="options" onClick=mostrar(calcMedias)> Calculador de Média</a>
+          <button class="options" onClick=mostrar(mentalista)> Mentalista</button>
+          <button class="options" onClick=mostrar(conversorMoedas)>Conversor de Moedas</button>
+          <button class="options" onClick=mostrar(aluraFlix)>AluraFlix</button>
+          <button class="options" onClick=mostrar(listCampeonato)>Lista de Campeonato</button>
+          <button class="options" onClick=mostrar(supTrunfo)>Super Trunfo</button>
+      </div>
+
+    </main>
+  </div>
+  <div id="modal" class="modal">
+    <div class="dentroModal">
+
+      <div id="content">
+      </div>
+      <button id="fechar" onClick=fechar()>X</button>
+    </div>
+  </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
